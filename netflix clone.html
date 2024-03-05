@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        /* Resetting default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        /* Header styles */
+        header {
+            padding: 20px;
+            background-color: #000;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .movie {
+            width: 200px;
+            margin: 20px;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie-title {
+            padding: 10px;
+            background-color: #000;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Netflix Clone</h1>
+    </header>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Movie 1 -->
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 1">
+            <div class="movie-title">Movie 1</div>
+        </div>
+        
+        <!-- Movie 2 -->
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 2">
+            <div class="movie-title">Movie 2</div>
+        </div>
+        
+        <!-- Add more movie divs as needed -->
+    </div>
+</body>
+</html>
